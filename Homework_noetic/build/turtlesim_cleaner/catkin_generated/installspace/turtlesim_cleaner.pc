@@ -1,0 +1,8 @@
+prefix=/home/ionut/UNI/Year_3/AI_Python/Project/Homework_noetic/install
+
+Name: turtlesim_cleaner
+Description: Description of turtlesim_cleaner
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

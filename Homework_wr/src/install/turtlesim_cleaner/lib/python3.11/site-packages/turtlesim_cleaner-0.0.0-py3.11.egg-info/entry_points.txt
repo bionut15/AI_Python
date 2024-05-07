@@ -1,0 +1,2 @@
+[console_scripts]
+test_node = turtlesim_cleaner.Move_node:main

@@ -1,0 +1,33 @@
+[1.185s] Invoking command in '/home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/src/turtlesim_cleaner': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PYTHONPATH=/home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/build/turtlesim_cleaner/prefix_override:/home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/install/turtlesim_cleaner/lib/python3.11/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlesim_cleaner build --build-base /home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/build/turtlesim_cleaner/build install --record /home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/build/turtlesim_cleaner/install.log --single-version-externally-managed install_data
+[1.541s] running egg_info
+[1.565s] writing ../../build/turtlesim_cleaner/turtlesim_cleaner.egg-info/PKG-INFO
+[1.566s] writing dependency_links to ../../build/turtlesim_cleaner/turtlesim_cleaner.egg-info/dependency_links.txt
+[1.566s] writing entry points to ../../build/turtlesim_cleaner/turtlesim_cleaner.egg-info/entry_points.txt
+[1.566s] writing requirements to ../../build/turtlesim_cleaner/turtlesim_cleaner.egg-info/requires.txt
+[1.566s] writing top-level names to ../../build/turtlesim_cleaner/turtlesim_cleaner.egg-info/top_level.txt
+[1.615s] reading manifest file '../../build/turtlesim_cleaner/turtlesim_cleaner.egg-info/SOURCES.txt'
+[1.616s] writing manifest file '../../build/turtlesim_cleaner/turtlesim_cleaner.egg-info/SOURCES.txt'
+[1.616s] running build
+[1.616s] running build_py
+[1.616s] copying turtlesim_cleaner/Move.py -> /home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/build/turtlesim_cleaner/build/lib/turtlesim_cleaner
+[1.617s] copying turtlesim_cleaner/__init__.py -> /home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/build/turtlesim_cleaner/build/lib/turtlesim_cleaner
+[1.617s] copying turtlesim_cleaner/Move_node.py -> /home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/build/turtlesim_cleaner/build/lib/turtlesim_cleaner
+[1.618s] running install
+[1.625s] running install_lib
+[1.650s] copying /home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/build/turtlesim_cleaner/build/lib/turtlesim_cleaner/Move_node.py -> /home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/install/turtlesim_cleaner/lib/python3.11/site-packages/turtlesim_cleaner
+[1.651s] byte-compiling /home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/install/turtlesim_cleaner/lib/python3.11/site-packages/turtlesim_cleaner/Move_node.py to Move_node.cpython-311.pyc
+[1.651s]   File "/home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/install/turtlesim_cleaner/lib/python3.11/site-packages/turtlesim_cleaner/Move_node.py", line 4
+[1.651s]     from geometry msgs.msg import Twist
+[1.651s]                   ^^^^
+[1.652s] SyntaxError: invalid syntax
+[1.652s] 
+[1.652s] running install_data
+[1.652s] copying resource/turtlesim_cleaner -> /home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/install/turtlesim_cleaner/share/ament_index/resource_index/packages
+[1.652s] copying package.xml -> /home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/install/turtlesim_cleaner/share/turtlesim_cleaner
+[1.652s] running install_egg_info
+[1.677s] removing '/home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/install/turtlesim_cleaner/lib/python3.11/site-packages/turtlesim_cleaner-0.0.0-py3.11.egg-info' (and everything under it)
+[1.678s] Copying ../../build/turtlesim_cleaner/turtlesim_cleaner.egg-info to /home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/install/turtlesim_cleaner/lib/python3.11/site-packages/turtlesim_cleaner-0.0.0-py3.11.egg-info
+[1.679s] running install_scripts
+[1.853s] Installing test_node script to /home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/install/turtlesim_cleaner/lib/turtlesim_cleaner
+[1.854s] writing list of installed files to '/home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/build/turtlesim_cleaner/install.log'
+[1.906s] Invoked command in '/home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/src/turtlesim_cleaner' returned '0': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PYTHONPATH=/home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/build/turtlesim_cleaner/prefix_override:/home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/install/turtlesim_cleaner/lib/python3.11/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlesim_cleaner build --build-base /home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/build/turtlesim_cleaner/build install --record /home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/build/turtlesim_cleaner/install.log --single-version-externally-managed install_data

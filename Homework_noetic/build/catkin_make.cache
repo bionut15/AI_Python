@@ -1,0 +1,2 @@
+turtlesim_cleaner
+-DCATKIN_DEVEL_PREFIX=/home/ionut/UNI/Year_3/AI_Python/Project/Homework_noetic/devel -DCMAKE_INSTALL_PREFIX=/home/ionut/UNI/Year_3/AI_Python/Project/Homework_noetic/install -G Unix Makefiles

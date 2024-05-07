@@ -1,0 +1,27 @@
+[0.980s] Invoking command in '/home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/src/turtlesim_cleaner': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PYTHONPATH=/home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/build/turtlesim_cleaner/prefix_override:/home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/install/turtlesim_cleaner/lib/python3.11/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlesim_cleaner build --build-base /home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/build/turtlesim_cleaner/build install --record /home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/build/turtlesim_cleaner/install.log --single-version-externally-managed install_data
+[1.269s] running egg_info
+[1.288s] writing ../../build/turtlesim_cleaner/turtlesim_cleaner.egg-info/PKG-INFO
+[1.333s] writing dependency_links to ../../build/turtlesim_cleaner/turtlesim_cleaner.egg-info/dependency_links.txt
+[1.334s] writing entry points to ../../build/turtlesim_cleaner/turtlesim_cleaner.egg-info/entry_points.txt
+[1.334s] writing requirements to ../../build/turtlesim_cleaner/turtlesim_cleaner.egg-info/requires.txt
+[1.334s] writing top-level names to ../../build/turtlesim_cleaner/turtlesim_cleaner.egg-info/top_level.txt
+[1.378s] reading manifest file '../../build/turtlesim_cleaner/turtlesim_cleaner.egg-info/SOURCES.txt'
+[1.379s] writing manifest file '../../build/turtlesim_cleaner/turtlesim_cleaner.egg-info/SOURCES.txt'
+[1.379s] running build
+[1.379s] running build_py
+[1.379s] copying turtlesim_cleaner/Move.py -> /home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/build/turtlesim_cleaner/build/lib/turtlesim_cleaner
+[1.379s] copying turtlesim_cleaner/__init__.py -> /home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/build/turtlesim_cleaner/build/lib/turtlesim_cleaner
+[1.380s] copying turtlesim_cleaner/DrawSH.py -> /home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/build/turtlesim_cleaner/build/lib/turtlesim_cleaner
+[1.380s] copying turtlesim_cleaner/Move_node.py -> /home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/build/turtlesim_cleaner/build/lib/turtlesim_cleaner
+[1.380s] running install
+[1.386s] running install_lib
+[1.407s] running install_data
+[1.407s] copying resource/turtlesim_cleaner -> /home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/install/turtlesim_cleaner/share/ament_index/resource_index/packages
+[1.407s] copying package.xml -> /home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/install/turtlesim_cleaner/share/turtlesim_cleaner
+[1.408s] running install_egg_info
+[1.430s] removing '/home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/install/turtlesim_cleaner/lib/python3.11/site-packages/turtlesim_cleaner-0.0.0-py3.11.egg-info' (and everything under it)
+[1.430s] Copying ../../build/turtlesim_cleaner/turtlesim_cleaner.egg-info to /home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/install/turtlesim_cleaner/lib/python3.11/site-packages/turtlesim_cleaner-0.0.0-py3.11.egg-info
+[1.431s] running install_scripts
+[1.575s] Installing test_node script to /home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/install/turtlesim_cleaner/lib/turtlesim_cleaner
+[1.575s] writing list of installed files to '/home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/build/turtlesim_cleaner/install.log'
+[1.621s] Invoked command in '/home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/src/turtlesim_cleaner' returned '0': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PYTHONPATH=/home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/build/turtlesim_cleaner/prefix_override:/home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/install/turtlesim_cleaner/lib/python3.11/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlesim_cleaner build --build-base /home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/build/turtlesim_cleaner/build install --record /home/ionut/UNI/Year_3/AI_Python/Project/Homework_wr/build/turtlesim_cleaner/install.log --single-version-externally-managed install_data
