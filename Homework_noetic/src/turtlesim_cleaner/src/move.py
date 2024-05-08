@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
 import rospy
 import math
+import sys
 from geometry_msgs.msg import Twist
-import std_srvs 
+from std_srvs.srv import Empty
 
-def move():
+def move(pub):
     # Starts a new node
-    rospy.init_node('robot_cleaner', anonymous=True)
-    velocity_publisher = rospy.Publisher('/turtle1/cmd_vel', Twist, queue_size=10)
     vel_msg = Twist()
 
     # Receiveing the user's input
@@ -33,7 +32,7 @@ def move():
 
     while not rospy.is_shutdown():
         # Publish the velocity
-        velocity_publisher.publish(vel_msg)
+        pub.publish(vel_msg)
         rate.sleep()
 
         # Set the current time for distance calculation
@@ -49,18 +48,16 @@ def move():
         # After the loop, stop the robot
         vel_msg.linear.x = 0
         # Force the robot to stop
-        velocity_publisher.publish(vel_msg)
+        pub.publish(vel_msg)
         break
 
-def draw_star():
-    rospy.init_node('draw_star', anonymous=True)
-    pub = rospy.Publisher('/turtle1/cmd_vel', Twist, queue_size=10)
+    rospy.sleep(1)
+
+def draw_star(pub):
     rate = rospy.Rate(1)  # Adjust this to control the speed of the turtle
 
     # Move forward to start drawing
     move_cmd = Twist()
-    move_cmd.linear.x = 2.0
-    pub.publish(move_cmd)
     rospy.sleep(1)  # Adjust this to control the duration of forward motion
 
     # Rotate to start drawing the first side of the star
@@ -82,16 +79,13 @@ def draw_star():
     stop_cmd = Twist()
     pub.publish(stop_cmd)
 
-    rospy.spin()
+    #rospy.spin()
+    rospy.sleep(1)
 
-def draw_hexagon():
-    rospy.init_node('draw_hexagon', anonymous=True)
-    pub = rospy.Publisher('/turtle1/cmd_vel', Twist, queue_size=10)
+def draw_hexagon(pub):
     rate = rospy.Rate(1)  # Adjust this to control the speed of the turtle
 
     move_cmd = Twist()
-    move_cmd.linear.x = 2.0
-    pub.publish(move_cmd)
     rospy.sleep(1)  # Adjust this to control the duration of forward motion
 
     rotate_cmd = Twist()
@@ -111,19 +105,36 @@ def draw_hexagon():
     stop_cmd = Twist()
     pub.publish(stop_cmd)
 
-    rospy.spin()
+    #rospy.spin()
+    rospy.sleep(1)
+def reset_turtle():
+    rospy.wait_for_service('/reset')
+    try:
+        reset = rospy.ServiceProxy('/reset', Empty)
+        reset()
+        rospy.loginfo("Turtle reset successfully.")
+    except rospy.ServiceException as e:
+        rospy.logerr("Service call failed: %s" % e)
 
-def reset():
+def main():
     rospy.init_node('draw_hexagon', anonymous=True)
     pub = rospy.Publisher('/turtle1/cmd_vel', Twist, queue_size=10)
-    rate = rospy.Rate(1)  # Adjust this to control the speed of the turtle
 
-
+    while not rospy.is_shutdown():
+        userInput = input("Enter command:\n l - Move program \n s - draw Star \n h - draw hexagon \n r - reset \n q - quit \n") 
+        match userInput:
+            case "l":
+                 move(pub)
+            case "s":
+                 draw_star(pub)
+            case "h":
+                 draw_hexagon(pub)
+            case "r":
+                 reset_turtle()
+            case "q":
+                 sys.exit()
 if __name__ == '__main__':
     try:
-        # Testing our function
-       #draw_hexagon()
-        reset()
-        #move()
+        main()
     except rospy.ROSInterruptException:pass
         
