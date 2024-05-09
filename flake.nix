@@ -18,7 +18,7 @@
 	    
 	    turtlesim
             ros-core
-
+	    gazebo
             # ...
           ];
         };
