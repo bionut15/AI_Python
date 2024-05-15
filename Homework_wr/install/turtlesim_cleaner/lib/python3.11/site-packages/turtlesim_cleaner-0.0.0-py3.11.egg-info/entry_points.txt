@@ -1,2 +1,0 @@
-[console_scripts]
-test_node = turtlesim_cleaner.DrawSH:main
