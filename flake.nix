@@ -12,14 +12,18 @@
         };
       in {
         devShells.default = pkgs.mkShell {
-          name = "Example project";
-          packages = with pkgs.rosPackages.noetic; [
-            pkgs.colcon
-	    
-	    turtlesim
-            ros-core
-	    gazebo
-            # ...
+          name = "Nix Shell";
+		packages = with pkgs; [
+		rosPackages.iron.ignition-cmake2-vendor
+            rosPackages.noetic.turtlesim
+            rosPackages.noetic.ros-core
+            rosPackages.noetic.gazebo
+            rosPackages.noetic.gazebo-ros
+            rosPackages.noetic.urdf
+            rosPackages.noetic.actionlib
+            rosPackages.noetic.interactive-markers
+            rosPackages.noetic.tf
+            rosPackages.noetic.xacro
           ];
         };
       });
