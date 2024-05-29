@@ -1,0 +1,8 @@
+prefix=/home/ionut/UNI/Year_3/AI_Python/Project/Homework_gazebo/devel
+
+Name: wall_follower
+Description: Description of wall_follower
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -145,6 +145,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/ionut/UNI/Year_3/AI_Python/Project/Homework_gazebo/build/turtlebot3_simulations/turtlebot3_gazebo/cmake_install.cmake")
   include("/home/ionut/UNI/Year_3/AI_Python/Project/Homework_gazebo/build/turtlebot3/turtlebot3_slam/cmake_install.cmake")
   include("/home/ionut/UNI/Year_3/AI_Python/Project/Homework_gazebo/build/turtlebot3/turtlebot3_teleop/cmake_install.cmake")
+  include("/home/ionut/UNI/Year_3/AI_Python/Project/Homework_gazebo/build/wall_follower/cmake_install.cmake")
   include("/home/ionut/UNI/Year_3/AI_Python/Project/Homework_gazebo/build/turtlebot3/turtlebot3_description/cmake_install.cmake")
 
 endif()

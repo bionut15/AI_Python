@@ -15,6 +15,13 @@
           name = "Nix Shell";
 		packages = with pkgs; [
 		rosPackages.iron.ignition-cmake2-vendor
+		rosPackages.noetic.rviz
+		rosPackages.noetic.turtlebot3
+		rosPackages.noetic.turtlebot3-simulations
+		rosPackages.noetic.turtlebot3-gazebo
+		rosPackages.noetic.gazebo-ros-pkgs
+		rosPackages.noetic.gazebo-ros-control
+		rosPackages.noetic.turtlebot3-msgs
             rosPackages.noetic.turtlesim
             rosPackages.noetic.ros-core
             rosPackages.noetic.gazebo

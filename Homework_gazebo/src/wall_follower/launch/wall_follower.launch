@@ -1,0 +1,8 @@
+<launch>
+  <!-- Include TurtleBot3 world launch -->
+  <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_house.launch"/>
+
+  <!-- Start the wall follower node -->
+  <node name="wall_follower" pkg="wall_follower" type="wall_follower.py" output="screen"/>
+</launch>
+

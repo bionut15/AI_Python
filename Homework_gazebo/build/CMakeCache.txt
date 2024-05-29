@@ -961,6 +961,15 @@ utf8_range_DIR:PATH=/nix/store/d1k9z3gazfanyrsf61csfxnrinr4q7md-protobuf-24.4/li
 //The directory containing a CMake configuration file for visualization_msgs.
 visualization_msgs_DIR:PATH=/nix/store/6x9lz0j0dnzprjxx9g4gnnpbgkwlgq7m-ros-noetic-visualization-msgs-1.13.1-r1/share/visualization_msgs/cmake
 
+//Value Computed by CMake
+wall_follower_BINARY_DIR:STATIC=/home/ionut/UNI/Year_3/AI_Python/Project/Homework_gazebo/build/wall_follower
+
+//Value Computed by CMake
+wall_follower_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+wall_follower_SOURCE_DIR:STATIC=/home/ionut/UNI/Year_3/AI_Python/Project/Homework_gazebo/src/wall_follower
+
 //The directory containing a CMake configuration file for xacro.
 xacro_DIR:PATH=/nix/store/4m6jn0w4jh8wgziz9w9sr7z1rdx673s8-ros-noetic-xacro-1.14.18-r1/share/xacro/cmake
 
@@ -1082,7 +1091,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=12
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=13
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
